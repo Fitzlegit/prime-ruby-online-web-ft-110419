@@ -1,9 +1,9 @@
 require 'pry'
 # Add  code here!
 def prime?(num)
-  if num > 1 && (num / num == 1) && num % num != 0
-    true
+  if num < 0 || num == 0 || num == 1
+    return true
   else
-    false
+    
   end
 end
